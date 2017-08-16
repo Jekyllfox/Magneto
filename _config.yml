@@ -1,0 +1,7 @@
+markdown: redcarpet
+name: Magneto
+author: Themelap
+author-email: Themelap@gmail.com
+baseurl: /Magneto
+port: 4000
+exclude: ['README.md']
