@@ -223,7 +223,7 @@ body{
 
 /*************************************Navigation***********************************/
 .navbar{
-border: none;
+border: none
 border-radius: none;
 }
 .navbar ul{
@@ -231,22 +231,48 @@ border-radius: none;
 }
 .navbar ul li a{
   float: left;
-  text-transform: uppercase;
+  text-transform:capitalize;
   color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-left: 18px !important;
+  font-size: 17px;
+  text-shadow: 10px;
+  padding-top: 0px;
 }
-
-
-/**********************************End Navigation**************************************/
+.navbar ul li a:hover{
+  color: #2c3e50;
+}
+.active{
+  color: #2c3e50 !important;
+}
 
 /***********************************Header-content********************************/
 
-#header-background{
+#particles-js{
   width: 100%;
-  height: 708px;
+  height:708px;
   background-image: url("../images/balance.jpg");
   background-position:center top;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   margin-top: -60px;
+  opacity: 1;
+  position: absolute;
+}
+.type{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 280px;
+font-size: 60px;
+color: #fff;
+font-weight: 700;
+letter-spacing: 0.5px;
+word-spacing: 2px;
+font-family: 'Poppins', sans-serif;
+transition: all 2s ease;
 }
