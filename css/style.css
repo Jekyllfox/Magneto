@@ -7,6 +7,8 @@ body{
   margin: 0 auto;
   text-align: center;
 }
+
+/***********************************Preloader************************************/
 .preloader{
   width:100%;
   height:100%;
@@ -217,4 +219,34 @@ body{
 	100% {
 		-moz-transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
 	}
+}
+
+/*************************************Navigation***********************************/
+.navbar{
+border: none;
+border-radius: none;
+}
+.navbar ul{
+  float: left;
+}
+.navbar ul li a{
+  float: left;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+
+/**********************************End Navigation**************************************/
+
+/***********************************Header-content********************************/
+
+#header-background{
+  width: 100%;
+  height: 708px;
+  background-image: url("../images/balance.jpg");
+  background-position:center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: -60px;
 }

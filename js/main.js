@@ -5,7 +5,3 @@
    $('.preloader').remove();
  });
   });
-
-
-  // wow initilize
-  new WOW().init();
