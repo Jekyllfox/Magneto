@@ -6,9 +6,9 @@ var typed = new Typed('.type', {
     "Responsive",
     "Multipurpose"
   ],
-  typeSpeed:50,
+  typeSpeed:30,
   backSpeed:30,
-  backDelay:300,
+  backDelay:1500,
   smartBackspace:true,
   backDelay:200,
   loop:true,
@@ -22,6 +22,14 @@ var typed = new Typed('.type', {
    $('.preloader').remove();
  });
   });
+
+
+// Icon-bar Clicked
+$('.navbar').on('click',function() {
+  $('.navbar').css('background-color','rgba(0,0,0,0.5)');
+  $('.icon-bar').css('color','#fff');
+});
+
 
 
 //Header Scroller
