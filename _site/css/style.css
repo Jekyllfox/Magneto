@@ -453,22 +453,24 @@ font-family: 'PT Sans Narrow', sans-serif;
   width: 300px;
   height: 250px;
   box-shadow: 0px 0px 5px #ccc;
+  margin-bottom: 30px;
+  border-radius: 2px;
 }
-.service-image img:hover >{
 
-}
 .service-detail{
+  visibility: hidden;
   width: 300px;
   height: 250px;
-  background-color: black;
+  background-color:#111111;
   position: absolute;
   top:0px;
   left:18px;
+  opacity:0.8;
 }
 .service-detail a{
   position: relative;
   top: 50%;
-  color: #ccc;
+  color: #fff;
   text-transform: capitalize;
 }
 .service-detail a:hover{

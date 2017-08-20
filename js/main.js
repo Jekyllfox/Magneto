@@ -41,3 +41,9 @@ $(window).on('scroll', function () {
          $('.navbar').css('background-color','transparent');
        }
    });
+
+
+//services animation
+$('.service-image img').mouseover(function(){
+
+});
