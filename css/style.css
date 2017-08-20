@@ -440,10 +440,37 @@ figcaption p{
 
 
 .services p{
+width: 100%;
 margin: 0 auto;
 text-align: center;
 letter-spacing: 0.5px;
 word-spacing: 1px;
 margin-bottom: 100px;
 font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.service-image img{
+  width: 300px;
+  height: 250px;
+  box-shadow: 0px 0px 5px #ccc;
+}
+.service-image img:hover >{
+
+}
+.service-detail{
+  width: 300px;
+  height: 250px;
+  background-color: black;
+  position: absolute;
+  top:0px;
+  left:18px;
+}
+.service-detail a{
+  position: relative;
+  top: 50%;
+  color: #ccc;
+  text-transform: capitalize;
+}
+.service-detail a:hover{
+  text-decoration: none;
 }
