@@ -245,7 +245,9 @@ border-radius: none;
 .navbar ul li a:hover{
   color: #2c3e50;
 }
-
+a.nav-link.active{
+  color: #2c3e50;
+}
 /***********************************Header-content********************************/
 
 #particles-js{
