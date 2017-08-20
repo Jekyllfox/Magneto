@@ -437,8 +437,11 @@ figcaption p{
   text-transform:capitalize;
   text-shadow: 2px 2px #ccc;
 }
+
+
 .services p{
 margin: 0 auto;
+text-align: center;
 letter-spacing: 0.5px;
 word-spacing: 1px;
 margin-bottom: 100px;
