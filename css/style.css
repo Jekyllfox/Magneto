@@ -471,6 +471,9 @@ font-family: 'PT Sans Narrow', sans-serif;
   top: 50%;
   color: #fff;
   text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
 }
 .service-detail a:hover{
   text-decoration: none;
