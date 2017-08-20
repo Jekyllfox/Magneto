@@ -458,7 +458,6 @@ font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .service-detail{
-  visibility: hidden;
   width: 300px;
   height: 250px;
   background-color:#111111;
