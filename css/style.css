@@ -317,7 +317,7 @@ text-shadow: 2px 2px #ccc;
 }
 .about .content{
   width: 50%;
-  margin-top: 16%;
+  margin-top: 10%;
   padding: 20px;
 }
 .content h2{
@@ -328,7 +328,7 @@ text-shadow: 2px 2px #ccc;
   color: #ccc;
   word-spacing: 1px;
 }
-.underline{
+.content .underline{
   width:35%;
   height: 1px;
   border: 1px solid #ccc;
@@ -341,7 +341,7 @@ text-shadow: 2px 2px #ccc;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   word-spacing: 1px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.6px;
   opacity: 0.6;
 }
 .content a{
@@ -355,4 +355,69 @@ font-weight: 600;
 }
 .content a:hover{
   text-decoration: none;
+}
+
+/******************************************Features***********************************/
+
+.features{
+  background-color:#ecf0f1;
+  opacity: 0.8;
+  box-shadow: 0px 0px 5px #ccc;
+}
+
+.features h2{
+  text-transform: uppercase;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  letter-spacing:1px;
+  word-spacing: 1px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+.features .underline{
+  border: 2px solid #fff;
+  width: 22%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+#top-para{
+  padding-left: 200px;
+  padding-right: 200px;
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+  line-height: 25px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.fea-logo{
+  margin: 80px auto;
+  border: none;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #2c3e50;
+
+}
+.fea-logo i{
+  font-size: 60px;
+  padding-top: 35%;
+  color: #fff;
+}
+
+figcaption h3{
+  text-transform:capitalize;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing:1px;
+  word-spacing: 1px;
+  opacity: 0.8;
+  font-weight: 600;
+}
+figcaption p{
+  text-align: center;
+  padding-top: 16px;
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+  line-height: 25px;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
