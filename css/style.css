@@ -438,8 +438,6 @@ figcaption p{
   text-transform:capitalize;
   text-shadow: 2px 2px #ccc;
 }
-
-
 .services p{
 width: 100%;
 margin: 0 auto;
@@ -449,25 +447,27 @@ word-spacing: 1px;
 margin-bottom: 100px;
 font-family: 'PT Sans Narrow', sans-serif;
 }
-
-.service-image img{
+.service-image{
   width: 300px;
   height: 250px;
+  margin: 15px auto;
+  overflow: hidden;
+}
+.service-image img{
+  width: 100%;
+  height: 100%;
   box-shadow: 0px 0px 5px #ccc;
-  margin-bottom: 30px;
   border-radius: 2px;
 }
-
 .service-detail{
-  visibility: hidden;
   width: 300px;
   height: 250px;
-  background-color:#111111;
-  position: absolute;
-  top:0px;
-  left:18px;
+  background-color: #000;
   opacity: 0.8;
-  transition: .5s ease;
+  transition:transform 1s ease;
+}
+.service-image:hover .service-detail{
+  transform: translateY(-250px);
 }
 .service-detail a{
   position: relative;
@@ -478,7 +478,7 @@ font-family: 'PT Sans Narrow', sans-serif;
   letter-spacing: 0.3px;
   word-spacing: 1px;
   border: 1px solid #fff;
-  padding: 10px 30px;
+  padding: 10px 20px;
 }
 .service-detail a:hover{
   text-decoration: none;
