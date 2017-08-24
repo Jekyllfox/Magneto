@@ -359,23 +359,22 @@ font-weight: 600;
 }
 
 .features h2{
-  text-transform: uppercase;
+  text-transform:capitalize;
   width: 100%;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  letter-spacing:1px;
-  word-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+  /*font-weight: 600;*/
   margin-top: 80px;
   margin-bottom: 10px;
-  opacity: 0.8;
+  opacity: 0.6;
 }
-.features .underline{
+/*.features .underline{
   border: 2px solid #fff;
-  width: 22%;
+  width: 16%;
   margin: 0 auto;
   margin-bottom: 20px;
-}
+}*/
 #top-para{
+  width: 100%;
   padding-left: 200px;
   padding-right: 200px;
   letter-spacing: 0.3px;
@@ -400,11 +399,6 @@ font-weight: 600;
 
 figcaption h3{
   text-transform:capitalize;
-  font-family: 'Raleway', sans-serif;
-  letter-spacing:1px;
-  word-spacing: 1px;
-  opacity: 0.8;
-  font-weight: 600;
 }
 figcaption p{
   text-align: center;
@@ -438,7 +432,7 @@ margin: 4px 0px 100px 0px;
 .service-image{
   width: 300px;
   height: 250px;
-  margin: 15px auto;
+  margin: 18px auto;
   box-shadow: 0px 0px 5px #ccc;
   border-radius: 2px;
   overflow: hidden;
