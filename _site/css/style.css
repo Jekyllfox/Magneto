@@ -325,23 +325,14 @@ text-shadow: 2px 2px #ccc;
 }
 .content h2{
   text-transform:capitalize;
-  font-size: 35px;
-  letter-spacing: 0.2px;
+  font-size: 30px;
   font-family: 'Poppins', sans-serif;
-  color: #ccc;
-  word-spacing: 1px;
-}
-.content .underline{
-  width:35%;
-  border: 1px solid #ccc;
-  margin: 0 auto;
-  margin-bottom: 60px;
+  padding: 30px 0px;
+  color:#003666;
 }
 .content p{
   line-height: 28px;
   margin-top: 10px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
   word-spacing: 1px;
   letter-spacing: 0.6px;
   opacity: 0.6;
@@ -489,7 +480,7 @@ font-family: 'PT Sans Narrow', sans-serif;
 .price{
   margin-top: 100px;
   background-color: #F6F6F6;
-  height:1200px;
+  height:1000px;
 }
 
 .price h2{
@@ -497,40 +488,75 @@ font-family: 'PT Sans Narrow', sans-serif;
   letter-spacing: 0.5px;
   word-spacing: 1px;
   text-transform:capitalize;
-  font-family: 'PT Sans Narrow', sans-serif;
   font-weight: 400;
-  opacity: 0.6;
+  opacity: 0.8;
 }
-.price .underline{
-  border: 2px solid #fff;
-  width: 30%;
-  margin: 8px auto 30px auto;
+.price p{
+color: #ccc;
+letter-spacing: 0.5px;
+word-spacing: 1px;
 }
 .price-container{
   margin-top: 150px;
   background-color: #fff;
-  box-shadow: 0px 0px 5px #fff;
-  border-radius: 5px;
+  box-shadow: 0px -3px 20px 0px #ccc;
+  border-radius: 7px;
   height: 600px;
   width: 100%;
 }
 #basic{
-  height: 700px;
+  height: 680px;
   margin-top: 100px;
 }
 .top-container{
-  padding: 30px 30px;
+ padding: 30px 50px;
+}
+.top-container span{
+  color:#003666;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  float: right;
 }
 .price-container h5,h6{
   float: left;
+  text-transform: capitalize;
+  opacity: 0.4;
 }
-.price-container span{
+.price-container h5{
+font-family: 'Raleway', sans-serif;
+font-size: 25px;
+font-weight:lighter;
+}
+.price-container h6{
+  font-size: 15px;
+}
+.price-content span{
   float: right;
+  font-size: 15px;
+  color:#003666;
+  font-weight: 400;
 }
 .price-content ul{
-  padding: 50px 50px;
+  padding: 40px 50px;
   list-style-type: none;
 }
-.btn{
-  margin-top: 50px;
+.price-content ul li{
+  padding: 5px 0px;
 }
+.btn{
+  margin-top: 30px;
+  text-transform: uppercase;
+  padding: 10px 20px !important;
+  border-radius:none !important;
+  font-family: 'Poppins', sans-serif;
+}
+.btn:hover{
+    box-shadow:-1px 7px 20px 0px #ccc;
+}
+#basic .btn{
+  margin-top: 80px;
+  box-shadow:-1px 7px 20px 0px #ccc;
+}
+
+/****************************************blog*********************************/
