@@ -489,7 +489,7 @@ font-family: 'PT Sans Narrow', sans-serif;
 .price{
   margin-top: 100px;
   background-color: #F6F6F6;
-  height:750px;
+  height:1200px;
 }
 
 .price h2{
@@ -505,4 +505,32 @@ font-family: 'PT Sans Narrow', sans-serif;
   border: 2px solid #fff;
   width: 30%;
   margin: 8px auto 30px auto;
+}
+.price-container{
+  margin-top: 150px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px #fff;
+  border-radius: 5px;
+  height: 600px;
+  width: 100%;
+}
+#basic{
+  height: 700px;
+  margin-top: 100px;
+}
+.top-container{
+  padding: 30px 30px;
+}
+.price-container h5,h6{
+  float: left;
+}
+.price-container span{
+  float: right;
+}
+.price-content ul{
+  padding: 50px 50px;
+  list-style-type: none;
+}
+.btn{
+  margin-top: 50px;
 }
