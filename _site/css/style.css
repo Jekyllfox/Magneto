@@ -362,17 +362,9 @@ font-weight: 600;
   text-transform:capitalize;
   width: 100%;
   font-family: 'Poppins', sans-serif;
-  /*font-weight: 600;*/
   margin-top: 80px;
   margin-bottom: 10px;
-  opacity: 0.6;
 }
-/*.features .underline{
-  border: 2px solid #fff;
-  width: 16%;
-  margin: 0 auto;
-  margin-bottom: 20px;
-}*/
 #top-para{
   width: 100%;
   padding-left: 200px;
@@ -399,6 +391,7 @@ font-weight: 600;
 
 figcaption h3{
   text-transform:capitalize;
+  font-size: 22px;
 }
 figcaption p{
   text-align: center;
@@ -414,7 +407,6 @@ figcaption p{
   width: 100%;
   margin: 100px auto 10px auto;
   font-family: 'Poppins', sans-serif;
-  font-weight: 600;
   letter-spacing: 0.5px;
   word-spacing: 1px;
   text-transform:capitalize;
