@@ -294,7 +294,8 @@ text-shadow: 2px 2px #ccc;
   text-shadow: 3px 3px #ccc;
 }
 .social-links ul li a:hover{
-   animation:flash 2s infinite ;
+   animation:fadeOut 2ms;
+   animation-fill-mode: forwards;
 }
 
 .angle{
