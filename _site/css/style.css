@@ -341,7 +341,7 @@ text-shadow: 2px 2px #ccc;
 border: 2px solid #ccc;
 padding: 10px 40px;
 position: relative;
-top: 30px;
+top: 50px;
 font-size: 20px;
 font-family: 'Poppins', sans-serif;
 font-weight: 600;
@@ -373,7 +373,7 @@ font-weight: 600;
   border: 2px solid #fff;
   width: 22%;
   margin: 0 auto;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 #top-para{
   padding-left: 200px;
@@ -381,7 +381,7 @@ font-weight: 600;
   letter-spacing: 0.3px;
   word-spacing: 1px;
   line-height: 25px;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 15px;
 }
 .fea-logo{
   margin: 130px auto 60px auto;
@@ -408,12 +408,10 @@ figcaption h3{
 }
 figcaption p{
   text-align: center;
-  padding-top: 16px;
-  letter-spacing: 0.3px;
-  word-spacing: 1px;
+  padding: 10px 20px;
   line-height: 25px;
-  font-family: 'PT Sans Narrow', sans-serif;
   margin-bottom: 50px;
+  font-size: 15px;
 }
 
 /******************************************Services**************************************/
@@ -432,10 +430,10 @@ figcaption p{
 width: 100%;
 margin: 0 auto;
 text-align: center;
+color: #ccc;
 letter-spacing: 0.5px;
 word-spacing: 1px;
-margin-bottom: 100px;
-font-family: 'PT Sans Narrow', sans-serif;
+margin: 4px 0px 100px 0px;
 }
 .service-image{
   width: 300px;
