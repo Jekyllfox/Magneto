@@ -566,6 +566,7 @@ font-weight:lighter;
   background-color: #ccc;
   opacity: 0.9;
   border-radius: 8px;
+  box-shadow: 0px -3px 20px 0px #ccc;
 }
 .member-profile .mem-header{
   width: 100%;
@@ -581,3 +582,25 @@ font-weight:lighter;
   position: relative;
   top:-90px;
 }
+.member-profile span{
+  font-size: 30px;
+}
+.member-profile p{
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+  margin-top: -50px;
+  padding: 0px 10px;
+  text-align: center;
+}
+.member-profile .mem-name{
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  padding: 15px 10px 10px 10px;
+  color: #2c3e50;
+  font-size: 20px;
+}
+.member-profile .social-links{
+  margin: 0;
+}
+
+/*************************************Client**********************************/
