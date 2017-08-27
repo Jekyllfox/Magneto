@@ -41,3 +41,27 @@ $(window).on('scroll', function () {
          $('.navbar').css('background-color','transparent');
        }
    });
+
+
+
+//Carousel
+$('.owl-carousel').owlCarousel({
+    center:true,
+    items:2,
+    loop:true,
+    margin:20,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})

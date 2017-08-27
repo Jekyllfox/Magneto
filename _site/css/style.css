@@ -239,7 +239,7 @@ border-radius: none;
   letter-spacing: 1px;
   word-spacing: 1px;
   padding-left: 18px !important;
-  font-size: 17px;
+  font-size: 14px;
   text-shadow: 10px;
   padding-top: 0px;
 }
@@ -406,12 +406,14 @@ figcaption p{
 
 .services h2{
   width: 100%;
-  margin: 100px auto 10px auto;
+  margin: 80px auto 10px auto;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 0.5px;
   word-spacing: 1px;
   text-transform:capitalize;
   text-shadow: 2px 2px #ccc;
+  font-weight: 600;
+  opacity: 0.9;
 }
 .services p{
 width: 100%;
@@ -548,7 +550,7 @@ font-weight:lighter;
 
 .team{
   width: 100%;
-  height: 850px;
+  height: 900px;
   background-image: url('../images/books.jpg');
   background-position: center;
   background-size: cover;
@@ -560,9 +562,10 @@ font-weight:lighter;
   margin: 0 auto;
 }
 .member-profile{
-  width: 100%;
+  width: 80%;
   height: 700px;
   margin-top: 100px;
+  margin: 100px auto 0 auto;
   background-color: #ccc;
   opacity: 0.9;
   border-radius: 8px;
@@ -576,11 +579,11 @@ font-weight:lighter;
   border-top-left-radius: 8px;
 }
 .member-profile img{
-  width: 180px;
-  height: 180px;
-  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
   position: relative;
-  top:-90px;
+  top:-80px;
 }
 .member-profile span{
   font-size: 30px;
@@ -589,7 +592,7 @@ font-weight:lighter;
   letter-spacing: 0.3px;
   word-spacing: 1px;
   margin-top: -50px;
-  padding: 0px 10px;
+  padding: 0px 20px;
   text-align: center;
 }
 .member-profile .mem-name{
@@ -603,4 +606,51 @@ font-weight:lighter;
   margin: 0;
 }
 
+.member-profile .social-links li{
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.member-profile .social-links a{
+  font-size: 20px;
+}
+
+
 /*************************************Client**********************************/
+
+.client{
+  width: 100%;
+  height: 600px;
+}
+.client h2{
+  width: 100%;
+  margin: 100px auto 10px auto;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  text-transform:capitalize;
+  font-weight: 400;
+  opacity: 0.8;
+  font-weight: 600;
+  text-shadow: 2px 2px #ccc;
+}
+.client p{
+  width: 50%;
+  margin: 10px auto;
+  font-size: 13px;
+  letter-spacing: 0.6px;
+  word-spacing: 1px;
+  line-height: 22px;
+  padding:0px 20px;
+  opacity: 0.8;
+}
+.client .brand-container{
+  width: 100%;
+  height: 200px;
+  margin: 100px auto;
+}
+.client .brand-container img{
+  width: 100%;
+  height: 200px;
+  margin: 20% auto;
+}
+
+/******************************************Contact*************************/
