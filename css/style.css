@@ -366,8 +366,14 @@ font-weight: 600;
   margin-top: 80px;
   margin-bottom: 10px;
 }
+.features .underline{
+  width: 12%;
+  margin: 0 auto;
+  border: 1px solid #fff;
+}
 #top-para{
   width: 100%;
+  padding-top: 20px;
   padding-left: 200px;
   padding-right: 200px;
   letter-spacing: 0.3px;
@@ -398,7 +404,7 @@ figcaption p{
   text-align: center;
   padding: 10px 20px;
   line-height: 25px;
-  margin-bottom: 50px;
+  margin-bottom:60px;
   font-size: 15px;
 }
 
@@ -654,3 +660,38 @@ font-weight:lighter;
 }
 
 /******************************************Contact*************************/
+.contact{
+  background-color:#ecf0f1;
+  text-align: center;
+}
+.contact h2{
+  padding-top: 80px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+}
+.contact .underline{
+  width: 20%;
+  margin: 0 auto;
+  border: 1px solid #fff;
+}
+form{
+  width: 50%;
+  margin: 50px auto;
+}
+.input-box{
+  margin: 10px auto;
+  border-radius: 6px !important;
+  font-size: 13px !important;
+  font-family: 'Poppins', sans-serif;
+}
+.contact .btn{
+  width: 100%;
+  text-transform: uppercase;
+  border-radius: 10px !important;
+  margin-top: -1px;
+  letter-spacing: 0.5px;
+}
