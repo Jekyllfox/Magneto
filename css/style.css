@@ -563,6 +563,18 @@ font-weight:lighter;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.team h2{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  text-transform:capitalize;
+  text-shadow: 2px 2px #ccc;
+  font-weight: 600;
+  color: #fff;
+}
+
 .team .row{
   width: 50%;
   margin: 0 auto;
@@ -570,8 +582,7 @@ font-weight:lighter;
 .member-profile{
   width: 80%;
   height: 700px;
-  margin-top: 100px;
-  margin: 100px auto 0 auto;
+  margin: 30px auto 0 auto;
   background-color: #ccc;
   opacity: 0.9;
   border-radius: 8px;
