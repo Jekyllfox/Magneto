@@ -659,35 +659,6 @@ font-weight:lighter;
   margin: 20% auto;
 }
 
-/***************************************Blog****************************************/
-
-.blog{
-  width: 100%;
-  height: 600px;
-  background-color:#f7f7f7;
-}
-.blog h2{
-  padding-top: 120px;
-  padding-bottom: 10px;
-  text-transform: capitalize;
-  font-weight: 600;
-  font-size: 26px;
-  letter-spacing: 0.5px;
-  word-spacing: 1px;
-}
-.blog .underline1{
-  width: 10%;
-  margin: 0 auto;
-  border: 1px solid #fff;
-}
-.blog .underline2{
-  width: 8%;
-  margin: 4px auto;
-  border: 1px solid #fff;
-}
-
-
-
 /******************************************Contact*************************/
 .contact{
   background-color:#ecf0f1;

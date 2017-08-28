@@ -384,36 +384,6 @@ layout: default
   </div>
 </div>
 
-
-<!--========================================= Blog ==================================-->
-
-<div class="blog" id="blog">
-  <h2>latest news</h2>
-  <div class="underline1"></div>
-    <div class="underline2"></div>
-<div class="container">
-{% for post in site.posts %}
-<div class="row">
-	<div class="small-12 columns">
-
-		<sub>{{ post.date | date: '%B %d, %Y' }}</sub>
-		<a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-
-	  	{{ post.excerpt }}
-
-		<ul class="inline-list" style="margin-top:-1em;">
-			{% for category in post.categories %}
-			<li><h6><a href="/#!/{{ category }}"><i class="fa fa-tag"></i> {{ category }}</a></h6></li>
-			{% endfor %}
-		</ul>
-
-	</div>
-</div>
-{% endfor %}
-</div>
-</div>
-
-
 <!--===================================== Client ================================-->
 
 <div class="client" id="client">
