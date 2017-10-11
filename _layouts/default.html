@@ -5,22 +5,24 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <link rel="stylesheet" href="{{site.baseurl}}/css\normalize.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/css/animate.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/css\font-awesome\css\font-awesome.min.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/css\owl.carousel.min.css">
-    <link rel="shortcut icon" href="{{site.baseurl}}/assets/logo/favicon.png">
+
+
+    <!-- css files linked -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css\owl.carousel.min.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
+  <link rel="shortcut icon" href="{{site.baseurl}}/assets/logo/favicon.png">
 
        <!-- Jquery -->
-      <script src="js\jquery-3.2.1.min.js" charset="utf-8"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
       <script src="js\typed.min.js" charset="utf-8"></script>
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lora|PT+Sans+Narrow|Poppins|Raleway" rel="stylesheet">
 
    <!-- Bootstrap CDN -->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
 
    <!-- Meta Tags -->
 <meta name="title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
@@ -50,15 +52,6 @@
 
   <body data-spy="scroll" data-offset="50">
 
-    <!-- Preloader -->
-    <div class="preloader">
-      <div class="cssload-loader">
-    	<div class="cssload-inner cssload-one"></div>
-    	<div class="cssload-inner cssload-two"></div>
-    	<div class="cssload-inner cssload-three"></div>
-     </div>
-    </div>
-
     <nav>
       {% include nav.html%}
     </nav>
@@ -73,14 +66,20 @@
     {% include footer.html %}
   </footer>
 
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="cssload-loader">
+      <div class="cssload-inner cssload-one"></div>
+      <div class="cssload-inner cssload-two"></div>
+      <div class="cssload-inner cssload-three"></div>
+     </div>
+    </div>
+
   <!-- Javascript Files -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
-  <script src="{{site.baseurl}}/js\wow.min.js" charset="utf-8"></script>
-  <script>
-  new WOW().init();
-  </script>
   <script src="{{site.baseurl}}/js\particles.min.js" charset="utf-8"></script>
   <script src="{{site.baseurl}}/js\app.js" charset="utf-8"></script>
   <script src="{{site.baseurl}}/js/owl.carousel.min.js" charset="utf-8"></script>

@@ -1,4 +1,14 @@
 
+// Preloader
+  $(window).on('load',function(){
+   $('.cssload-loader').fadeOut('slow',function(){
+   $('.preloader').remove();
+   $(".navbar").addClass("fixed-top");
+
+ });
+  });
+
+
 // Auto Type
 var typed = new Typed('.type', {
   strings: [
@@ -14,14 +24,6 @@ var typed = new Typed('.type', {
   loop:true,
   showCursor:false
 });
-
-
-// Preloader
-  $(window).on('load',function(){
-   $('.cssload-loader').fadeOut('slow',function(){
-   $('.preloader').remove();
- });
-  });
 
 
 // Icon-bar Clicked

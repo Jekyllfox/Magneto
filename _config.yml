@@ -1,9 +1,9 @@
-markdown: rdiscount
+markdown: kramdown
 name: Magneto
 description: Creativity is Awesome
 author: Themelap
-author-email: Themelap@gmail.com
-baseurl: /Magneto
+baseurl:
+url:
 port: 4000
 permalink: pretty
 exclude: ['README.md']
