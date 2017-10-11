@@ -1155,4 +1155,7 @@ form{
   .service-image{
     width: 235px;
   }
+  .service-detail{
+    width: 235px;
+  }
 }
