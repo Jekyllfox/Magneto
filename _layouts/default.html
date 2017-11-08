@@ -2,32 +2,25 @@
 <html>
   <head>
     <meta charset="utf-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-
-
-    <!-- css files linked -->
+  <title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <!-- css files linked -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{site.baseurl}}/css\owl.carousel.min.css">
   <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
   <link rel="shortcut icon" href="{{site.baseurl}}/assets/logo/favicon.png">
-
-       <!-- Jquery -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
-      <script src="js\typed.min.js" charset="utf-8"></script>
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lora|PT+Sans+Narrow|Poppins|Raleway" rel="stylesheet">
-
-   <!-- Bootstrap CDN -->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
-
-   <!-- Meta Tags -->
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+  <script src="js\typed.min.js" charset="utf-8"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lora|PT+Sans+Narrow|Poppins|Raleway" rel="stylesheet">
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+  <!-- Meta Tags -->
 <meta name="title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
-
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
@@ -35,7 +28,6 @@
 <meta name="twitter:site" content="@site-name" />
 <meta name="twitter:creator" content="@author-name">
 <meta name="twitter:card" content="summary">
-
 <!-- Open Graph data -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
@@ -48,41 +40,32 @@
 <meta property="article:published_time" content="{{ page.date }}" />
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 </head>
-
-
-  <body data-spy="scroll" data-offset="50">
-
-    <nav>
-      {% include nav.html%}
-    </nav>
-
-    <header>
-     {% include header.html %}
-    </header>
-
-  {{content}}
-
-  <footer>
-    {% include footer.html %}
-  </footer>
-
-
-    <!-- Preloader -->
-    <div class="preloader">
-      <div class="cssload-loader">
-      <div class="cssload-inner cssload-one"></div>
-      <div class="cssload-inner cssload-two"></div>
-      <div class="cssload-inner cssload-three"></div>
-     </div>
-    </div>
-
-  <!-- Javascript Files -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
-  <script src="{{site.baseurl}}/js\particles.min.js" charset="utf-8"></script>
-  <script src="{{site.baseurl}}/js\app.js" charset="utf-8"></script>
-  <script src="{{site.baseurl}}/js/owl.carousel.min.js" charset="utf-8"></script>
-  <script src="{{site.baseurl}}/js/main.js" charset="utf-8"></script>
-  </body>
+<body data-spy="scroll" data-offset="50">
+<nav>
+{% include nav.html%}
+</nav>
+<header>
+{% include header.html %}
+</header>
+{{content}}
+<footer>
+{% include footer.html %}
+</footer>
+<!-- Preloader -->
+<div class="preloader">
+<div class="cssload-loader">
+<div class="cssload-inner cssload-one"></div>
+<div class="cssload-inner cssload-two"></div>
+<div class="cssload-inner cssload-three"></div>
+</div>
+</div>
+<!-- Javascript Files -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+<script src="{{site.baseurl}}/js\particles.min.js" charset="utf-8"></script>
+<script src="{{site.baseurl}}/js\app.js" charset="utf-8"></script>
+<script src="{{site.baseurl}}/js/owl.carousel.min.js" charset="utf-8"></script>
+<script src="{{site.baseurl}}/js/main.js" charset="utf-8"></script>
+</body>
 </html>
